@@ -7,7 +7,7 @@ const blogRoutes = require('./routes/blogRoutes');
 const app = express();
 
 // connect to mongodb & listen for requests
-const dbURI = "mongodburl;
+const dbURI = "mongo  db url from your databse;
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnodnifiedTopology: true })
   .then(result => app.listen(3000))
